@@ -1,7 +1,13 @@
 # dns-config
-Script simples feito com o Claude para configuração de DNS no Linux Mint pela CLI. Criei isso mais para experimentar vibe coding com Claude, pois o nmcli já é bastante simples de usar.
+Script simples feito com o Claude para configuração de DNS no Linux Mint pela CLI. O nmcli já é bastante simples de usar, porém criei isso com o objetivo de experimentar vibe coding com Claude.
 
-Para fazer funcionar, certifique-se de ter o fzf e o nm-cli instalado no seu computador. No Linux Mint já vem instalado por padrão. Não recomendo usar em outras distros se não souber como o script funciona, erros podem acontecer por inúmeros fatores. Esse projeto é apenas uma experimentação.
+Para fazer funcionar, certifique-se de ter o fzf e o nmcli instalados no seu computador. No Linux Mint o nmcli já vem instalado por padrão. Para instalar o fzf use:
+
+```bash
+sudo apt update && sudo apt install fzf
+```
+
+Não recomendo usar esse script em outras distros se não souber como ele funciona, erros podem acontecer por inúmeros fatores. Esse projeto é apenas uma experimentação.
 
 Para baixar e executar o script:
 
